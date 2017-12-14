@@ -60,6 +60,7 @@ inoremap jj <ESC>
 :map <F5> a<C-R>=strftime("%c")<CR><Esc>
 :map <F2> i<CR><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><CR><Esc>
 :map <F4> i<CR>error_log(var_export($array,1),3,'/var/www/svnhejian/log.txt')."\r\n\r\n";<CR><Esc>
+:map , oerror_log(print_r(__method__,1),3,"/tmp/1.txt");error_log("=======================================================================",3,"/tmp/1.txt");<Esc>
 map <space> /
 map <c-space> ?
 map <S> shift
